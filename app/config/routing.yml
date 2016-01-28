@@ -1,0 +1,8 @@
+sensio_customer_id:
+    resource: "@SensioCustomerIdBundle/Controller/"
+    type:     annotation
+    prefix:   /{customer_id}
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
